@@ -1,0 +1,252 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
++media-breakpoint-down(lg)
+
+// ≥992px
++media-breakpoint-down(md)
+
+// ≥768px
++media-breakpoint-down(sm)
+
+// ≥576px
++media-breakpoint-down(xs)
+
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+
+// ≤768px
++media-breakpoint-up(md)
+
+// ≤992px
++media-breakpoint-up(lg)
+
+// ≤1200px
++media-breakpoint-up(xl)
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+	.header-composition 
+		.welcome
+			.h1
+				margin-top: 0
+				margin-bottom: 0
+				strong
+	    			
+	    			line-height: 1.2
+
+	
+	.s-feature
+		.container-fluid .row
+			padding: 30px 55px 30px 55px
+		.athlets-image
+			left: 0
+			top: 30px
+		.players-image
+			right: 0
+			bottom: 5%
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/**/
+	.header-composition 
+		.welcome
+			.h1
+				margin-top: 0
+				margin-bottom: 0
+				strong
+	    			
+	    			line-height: 1.2
+			&:last-child
+				text-align: right
+				margin-left: 95px
+
+	.s-feature
+		.container-fluid .row
+			padding: 20px 55px 20px 55px
+		.container-fluid .row.row-title
+			padding-bottom: 300px
+		.h4
+			font-size: 32px
+		p
+			font-size: 16px
+		.athlets-image
+			left: 0
+			top: 30px
+			img
+				max-width: 70%
+				max-height: 70%
+		.players-image
+			right: 0
+			bottom: 17%
+			img
+				max-width: 70%
+				max-height: 70%
+				float: right
+
+@media only screen and (max-width : 816px)
+	
+	.header-composition 
+		.welcome
+			.h1
+				margin-top: 0
+				margin-bottom: 0
+				strong
+	    			
+	    			line-height: 1.2
+			&:last-child
+				text-align: right
+				margin-left: 95px
+				
+		.google-play
+			margin-left: 0
+		.apple
+			margin-right: 0
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	/**/
+	.header-composition 
+		.welcome
+			.h1
+				margin-top: 0
+				margin-bottom: 0
+				strong
+	    			font-size: 64px
+	    			line-height: 1.2
+			&:last-child
+				text-align: right
+				margin-left: 95px
+				
+		.google-play
+			margin-left: 0
+			margin-bottom: -310px
+		.apple
+			margin-right: 0
+
+	.phone
+		display: none
+
+
+	.s-feature
+		.container-fluid .row
+			padding: 20px 55px 20px 55px
+		.container-fluid .row.row-title
+			padding-top: 0
+			padding-bottom: 300px
+		.h3
+			font-size: 62px
+		.h4
+			font-size: 32px
+		p
+			font-size: 16px
+		.athlets-image
+			left: 15%
+			top: 150px
+			img
+				max-width: 50%
+				max-height: 50%
+		.players-image
+			right: 0
+			bottom: 28%
+			img
+				max-width: 70%
+				max-height: 70%
+				float: none
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	/**/
+	.flex-center
+		margin: auto
+		width: 1558px
+		.container
+			width: auto
+			padding-left: 15px
+			padding-right: 15px
+
+	.header-composition 
+		.welcome
+			.h1
+				margin-top: 0
+				margin-bottom: 0
+				strong
+	    			font-size: 44px
+	    			line-height: 1.2
+			&:last-child
+				text-align: right
+				margin-left: 95px
+		.button 
+			min-width: 290px
+			img
+				width: 31px
+				height: 35px
+			span
+				font-size: 12px		
+		.google-play
+			margin-left: 0
+			margin-bottom: -290px
+		.apple
+			margin-right: 0
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+	.header-composition 
+		.welcome
+			.h1
+				margin-top: 0
+				margin-bottom: 0
+				strong
+	    			font-size: 28px
+	    			line-height: 1.2
+			&:last-child
+				text-align: right
+				margin-left: 95px
+		.button 
+			min-width: 100%
+			img
+				width: 21px
+				height: 25px
+			span
+				font-size: 8px		
+		.google-play
+			margin-left: 0
+			margin-bottom: -280px
+		.apple
+			margin-right: 0
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
